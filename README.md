@@ -1,4 +1,6 @@
-<h1>Solal Berrebi</h1>
+<img src="assets/banner.svg" alt="Solal Berrebi, software engineer, Paris" width="100%">
+
+<br>
 
 **I design and build products end to end — interface, backend, and the AI in between.**
 
@@ -12,29 +14,70 @@ Everything below started as a personal frustration: something too slow, too clun
 
 ## Selected work
 
-**[Vocafast](https://apps.apple.com/us/app/vocafast-learn-vocabulary/id6760617266)** — Learn vocabulary at the speed of thought. &nbsp;*Live on the App Store.*<br>
-Snap a menu, paste an article, or just speak: AI extracts the vocabulary in 17 languages, then spaced repetition (SM-2, written from scratch) makes it stick. A native SwiftUI app and a PWA share one backend, with a pluggable LLM layer across Anthropic, OpenAI and Groq.<br>
-<sub>Swift · SwiftUI · Next.js · Supabase · PostgreSQL</sub>
-
-**[Forkly](https://github.com/SolalBerrebi/forkly)** — Figma for LLM conversations. &nbsp;*Open source.*<br>
-An infinite canvas where any reply can fork into parallel branches, the same prompt runs on Claude, GPT, Gemini and local models side by side, and the best answers merge into one. Local-first: SQLite storage, keys in the OS keychain, no telemetry.<br>
-<sub>Rust · Tauri · React · TypeScript · SQLite</sub>
-
-**Droit Fiscal France** — A RAG assistant that reasons over the French tax code.<br>
-33,757 articles across 9 legal codes, linked by 41,837 citations into a navigable knowledge graph. Hybrid retrieval (dense embeddings + BM25) feeds Claude, which answers with sources and a diagram of the strategy.<br>
-<sub>Python · FastAPI · Claude · NetworkX · React</sub>
-
-**ChabadEat** — Multi-tenant ordering platform for community restaurants.<br>
-Each restaurant gets its own branded storefront on its own subdomain, card payments settled through Stripe Connect, and data isolation enforced in the database with Postgres row-level security.<br>
-<sub>Next.js · TypeScript · Supabase · Stripe Connect</sub>
-
-**[Glance](https://github.com/SolalBerrebi/Glance)** — A teleprompter that follows your voice.<br>
-Sits just below the MacBook camera and scrolls word by word as you speak, so you keep eye contact on any call or recording. Scripts stay on your machine.<br>
-<sub>Electron · JavaScript · Whisper</sub>
-
-**[Bloomberg Daily Brief](https://github.com/SolalBerrebi/BloombergNewsletterSummarizer)** — The markets in five minutes.<br>
-A pipeline that reads the day's Bloomberg newsletters, summarises them with GPT-4 and explains the key concepts. It grew from a personal fix into a daily digest for 100+ finance students.<br>
-<sub>Python · OpenAI · Telegram</sub>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://apps.apple.com/us/app/vocafast-learn-vocabulary/id6760617266"><img src="assets/vocafast.webp" alt="Vocafast" width="100%"></a>
+      <br><br>
+      <b><a href="https://apps.apple.com/us/app/vocafast-learn-vocabulary/id6760617266">Vocafast</a></b> — Learn vocabulary at the speed of thought.
+      <br>
+      Snap a menu, paste an article, or just speak: AI extracts the vocabulary in 17 languages, then spaced repetition makes it stick. Native SwiftUI app and PWA on one backend.
+      <br>
+      <sub>Swift · SwiftUI · Next.js · Supabase</sub>
+      <br><br>
+      <a href="https://apps.apple.com/us/app/vocafast-learn-vocabulary/id6760617266"><img src="assets/appstore.svg" alt="Download on the App Store" height="26"></a>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SolalBerrebi/forkly"><img src="assets/forkly.webp" alt="Forkly" width="100%"></a>
+      <br><br>
+      <b><a href="https://github.com/SolalBerrebi/forkly">Forkly</a></b> — Figma for LLM conversations.
+      <br>
+      An infinite canvas where any reply forks into parallel branches, the same prompt runs on Claude, GPT, Gemini and local models side by side, and the best answers merge. Open source, local-first.
+      <br>
+      <sub>Rust · Tauri · React · TypeScript · SQLite</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <img src="assets/droit-fiscal.webp" alt="Droit Fiscal France" width="100%">
+      <br><br>
+      <b>Droit Fiscal France</b> — A RAG assistant over the French tax code.
+      <br>
+      33,757 articles across 9 legal codes, linked by 41,837 citations into a navigable knowledge graph. Hybrid retrieval feeds Claude, which answers with its sources.
+      <br>
+      <sub>Python · FastAPI · Claude · NetworkX · React</sub>
+    </td>
+    <td width="50%" valign="top">
+      <img src="assets/chabadeat.webp" alt="ChabadEat" width="100%">
+      <br><br>
+      <b>ChabadEat</b> — Multi-tenant ordering for community restaurants.
+      <br>
+      Each restaurant gets a branded storefront on its own subdomain, payments settled through Stripe Connect, and data isolated with Postgres row-level security.
+      <br>
+      <sub>Next.js · TypeScript · Supabase · Stripe Connect</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SolalBerrebi/Glance"><img src="assets/glance.webp" alt="Glance" width="100%"></a>
+      <br><br>
+      <b><a href="https://github.com/SolalBerrebi/Glance">Glance</a></b> — A teleprompter that follows your voice.
+      <br>
+      Sits just below the MacBook camera and scrolls word by word as you speak, so you keep eye contact on any call or recording. Scripts stay on your machine.
+      <br>
+      <sub>Electron · JavaScript · Whisper</sub>
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/SolalBerrebi/BloombergNewsletterSummarizer"><img src="assets/bloomberg.webp" alt="Bloomberg Daily Brief" width="100%"></a>
+      <br><br>
+      <b><a href="https://github.com/SolalBerrebi/BloombergNewsletterSummarizer">Bloomberg Daily Brief</a></b> — The markets in five minutes.
+      <br>
+      Reads the day's Bloomberg newsletters, summarises them with GPT-4 and explains the key concepts. Grew from a personal fix into a daily digest for 100+ finance students.
+      <br>
+      <sub>Python · OpenAI · Telegram</sub>
+    </td>
+  </tr>
+</table>
 
 Full case studies on [solalberrebi.com](https://solalberrebi.com).
 
@@ -42,10 +85,16 @@ Full case studies on [solalberrebi.com](https://solalberrebi.com).
 
 ## Stack
 
-**Languages** — TypeScript · Swift · Python · Rust · SQL<br>
-**Product** — React · Next.js · SwiftUI · Tauri · Tailwind<br>
-**Backend** — PostgreSQL · Supabase · FastAPI · Stripe<br>
-**AI** — LLM APIs (Claude, GPT, Gemini) · RAG · agents · scikit-learn
+<img src="assets/stack.svg" alt="TypeScript, Swift, Python, Rust, React, Next.js, Tailwind, Tauri, PostgreSQL, Supabase, FastAPI" width="560">
+
+Also: SwiftUI · Stripe · LLM APIs (Claude, GPT, Gemini) · RAG · agents · scikit-learn
+
+<br>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SolalBerrebi/SolalBerrebi/output/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/SolalBerrebi/SolalBerrebi/output/snake.svg" alt="Animated contribution graph" width="100%">
+</picture>
 
 <br>
 
